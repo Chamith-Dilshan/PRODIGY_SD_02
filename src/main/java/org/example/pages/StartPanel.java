@@ -15,8 +15,8 @@ public class StartPanel{
     BaseButton playButton = new BaseButton("Play");
 
     public StartPanel(JPanel cardPanel){
-        startPanel.setLayout(new BorderLayout());
-        startPanel.add(playButton,BorderLayout.CENTER);
+        startPanel.setLayout(new FlowLayout(FlowLayout.CENTER,250,300));
+        startPanel.add(playButton);
 
         playButton.addActionListener(new ActionListener() {
             @Override
