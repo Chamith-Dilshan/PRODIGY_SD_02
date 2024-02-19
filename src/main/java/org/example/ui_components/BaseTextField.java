@@ -8,7 +8,7 @@ public class BaseTextField extends JTextField {
         this.setPreferredSize(new Dimension(250,50));
         this.setFont(new Font("Source Code Pro",Font.BOLD,20));
         this.setBackground(Color.WHITE);
-        this.setText(text);
         this.setVisible(true);
+        this.setBorder(javax.swing.BorderFactory.createEmptyBorder());
     }
 }
