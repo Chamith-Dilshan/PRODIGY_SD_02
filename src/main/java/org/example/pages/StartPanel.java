@@ -1,8 +1,6 @@
 package org.example.pages;
 
-import org.example.contoller.PlayButtonAction;
 import org.example.ui_components.BaseButton;
-import org.example.ui_components.BaseFrame;
 import org.example.ui_components.BasePanel;
 
 import javax.swing.*;

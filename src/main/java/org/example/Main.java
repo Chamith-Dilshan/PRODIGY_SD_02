@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.pages.GuessingPanel;
 import org.example.pages.StartPanel;
+import org.example.pages.SuccessPanel;
 import org.example.ui_components.BaseButton;
 import org.example.ui_components.BaseFrame;
 import org.example.ui_components.BasePanel;
@@ -16,8 +17,7 @@ public class Main {
         // Create panels
         JPanel cardPanel = new JPanel(new CardLayout());
         StartPanel startPanel = new StartPanel(cardPanel);
-        GuessingPanel guessingPanel = new GuessingPanel();
-        //SuccessPanel successPanel = new SuccessPanel();
+        GuessingPanel guessingPanel = new GuessingPanel(cardPanel);
         //FailPanel failPanel = new FailPanel();
 
         // Add panels to the cardPanel
